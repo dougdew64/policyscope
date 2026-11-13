@@ -6,8 +6,9 @@
 **Answering insurance coverage questions from policy wording, with every part of the machinery
 built, explained and measured.**
 
-> **Status:** just started (November 2026). Nothing runs yet; [docs/PLAN.md](docs/PLAN.md) has the
-> stages.
+> **Status:** stage 1 built (November 2026): a synthetic policy corpus and a golden set of claim
+> records, loaded and checked in Java ([docs/CORPUS.md](docs/CORPUS.md)). [docs/PLAN.md](docs/PLAN.md)
+> has the stages.
 
 ## What it is
 A coverage question ("is water that backs up through a drain covered?") is answered from the
@@ -37,6 +38,7 @@ Every stage ends in a measurement on the golden set: recall, correctness, latenc
 ## Documents
 | Document | What it holds |
 |---|---|
+| [docs/CORPUS.md](docs/CORPUS.md) | The policy corpus and the golden set: what's in them, and why |
 | [docs/CLAIMS.md](docs/CLAIMS.md) | How a claim is processed, and the step policyscope builds |
 | [docs/PLAN.md](docs/PLAN.md) | The stages, and what each one measures |
 | [docs/DECISIONS.md](docs/DECISIONS.md) | The decisions, newest first |
