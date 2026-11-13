@@ -1,0 +1,9 @@
+{
+  "policyNumber": "T-1", "namedInsured": "A. Tester", "residencePremises": "1 Test Way",
+  "versions": [
+    {"version": 1, "effective": "2025-01-01", "expires": "2026-01-01", "forms": ["T-FORM"],
+     "declarations": [{"id": "T-1/v1/DEC.deductible", "heading": "Declarations", "text": "Deductible: $1,000"}]},
+    {"version": 2, "effective": "2026-01-01", "expires": "2027-01-01", "forms": ["T-FORM"], "endorsements": ["T-END"],
+     "declarations": [{"id": "T-1/v2/DEC.deductible", "heading": "Declarations", "text": "Deductible: $2,500"}]}
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "claims": [
+    {"id": "T001", "policyNumber": "T-1", "dateOfLoss": "2025-06-01",
+     "lossDescription": "Water backed up through the floor drain.", "question": "Is the damage covered?",
+     "answer": "NOT_COVERED", "decidingClauses": ["T-FORM/I.EXCL.3.b"], "hardCase": "versions",
+     "reasoning": "v1 has no endorsement; the exclusion applies."},
+    {"id": "T002", "policyNumber": "T-1", "dateOfLoss": "2026-06-01",
+     "lossDescription": "Water backed up through the floor drain.", "question": "Is the damage covered?",
+     "answer": "COVERED", "decidingClauses": ["T-FORM/I.A.1", "T-END/1"], "hardCase": "versions",
+     "reasoning": "v2 adds the endorsement, which deletes the exclusion."},
+    {"id": "T003", "policyNumber": "T-1", "dateOfLoss": "2026-06-01",
+     "lossDescription": "The basement got wet.", "question": "Am I covered?",
+     "answer": "COVERED", "decidingClauses": ["T-FORM/I.A.1", "T-END/1"], "variantOf": "T002",
+     "reasoning": "Same as T002, in a claimant's words."}
+  ]
+}

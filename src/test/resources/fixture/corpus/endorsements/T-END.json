@@ -1,0 +1,6 @@
+{
+  "id": "T-END", "kind": "ENDORSEMENT", "title": "Test Water Backup", "edition": "2025-01",
+  "clauses": [
+    {"id": "T-END/1", "heading": "Water Backup", "text": "Exclusion 3.b. is deleted.", "amends": ["I.EXCL.3.b"]}
+  ]
+}

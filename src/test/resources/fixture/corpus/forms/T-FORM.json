@@ -1,0 +1,8 @@
+{
+  "id": "T-FORM", "kind": "FORM", "title": "Test Form", "edition": "2025-01",
+  "clauses": [
+    {"id": "T-FORM/DEF.1", "heading": "Definitions", "text": "“Residence premises” means the dwelling shown in the Declarations.", "defines": "residence premises"},
+    {"id": "T-FORM/I.A.1", "heading": "Section I > Coverage A", "text": "We cover the dwelling on the “residence premises”."},
+    {"id": "T-FORM/I.EXCL.3.b", "heading": "Section I > Exclusions > Water", "text": "We do not cover water that backs up through a drain."}
+  ]
+}
