@@ -1,0 +1,9 @@
+{
+  "id": "PS-RC", "kind": "ENDORSEMENT", "title": "Personal Property Replacement Cost Loss Settlement", "edition": "2025-01",
+  "clauses": [
+    {"id": "PS-RC/1", "heading": "Personal Property Replacement Cost > Eligible Property", "amends": ["I.COND.4.a"], "text": "Covered losses to personal property under Coverage C, and to awnings, carpeting, household appliances, outdoor antennas and outdoor equipment, whether or not attached to buildings, are settled at replacement cost at the time of loss, instead of “actual cash value” as provided in paragraph 4.a of the Loss Settlement condition."},
+    {"id": "PS-RC/2", "heading": "Personal Property Replacement Cost > Ineligible Property", "text": "Replacement cost does not apply to, and the following continue to be settled at “actual cash value”: antiques, fine arts, paintings and similar articles of rarity or antiquity which cannot be replaced; memorabilia, souvenirs and collectors items whose age or history contribute to their value; articles not maintained in good or workable condition; and articles that are outdated or obsolete and are stored or not being used."},
+    {"id": "PS-RC/3", "heading": "Personal Property Replacement Cost > Settlement", "text": "We will pay no more than the least of: the replacement cost at the time of loss, without deduction for depreciation; the full cost of repair; any special limit of liability in this policy; or the limit of liability that applies to Coverage C."},
+    {"id": "PS-RC/4", "heading": "Personal Property Replacement Cost > Payment", "text": "When the replacement cost for the entire loss under this endorsement exceeds $500, we will pay no more than the “actual cash value” for the loss until the actual repair or replacement is complete. You may make a claim for loss on an “actual cash value” basis and then make claim for any additional liability within 180 days after the loss."}
+  ]
+}

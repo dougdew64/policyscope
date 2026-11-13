@@ -1,0 +1,86 @@
+{
+  "policyNumber": "HO-1002",
+  "namedInsured": "Sam Okafor",
+  "residencePremises": "27 Juniper Court, Brookfield Park",
+  "versions": [
+    {
+      "version": 1,
+      "effective": "2026-02-15",
+      "expires": "2027-02-15",
+      "forms": [
+        "PS-OP"
+      ],
+      "endorsements": [
+        "PS-WB",
+        "PS-RC"
+      ],
+      "declarations": [
+        {
+          "id": "HO-1002/v1/DEC.period",
+          "heading": "Declarations > Policy Period",
+          "text": "Policy number HO-1002. Policy period: from 2026-02-15 to 2027-02-15, 12:01 a.m. standard time at the residence premises."
+        },
+        {
+          "id": "HO-1002/v1/DEC.insured",
+          "heading": "Declarations > Named Insured",
+          "text": "Named insured and mailing address: Sam Okafor, 27 Juniper Court, Brookfield Park."
+        },
+        {
+          "id": "HO-1002/v1/DEC.premises",
+          "heading": "Declarations > Residence Premises",
+          "text": "The residence premises is 27 Juniper Court, Brookfield Park: a one-family dwelling of brick construction, built 2008, with a finished basement and a sump pump."
+        },
+        {
+          "id": "HO-1002/v1/DEC.forms",
+          "heading": "Declarations > Forms and Endorsements",
+          "text": "Forms and endorsements made part of this policy: PS-OP Homeowners Policy - Open Perils Form (edition 2025-01); PS-WB Water Backup and Sump Discharge or Overflow (edition 2025-01); PS-RC Personal Property Replacement Cost Loss Settlement (edition 2025-01)."
+        },
+        {
+          "id": "HO-1002/v1/DEC.limits.A",
+          "heading": "Declarations > Section I Limits",
+          "text": "Coverage A - Dwelling: $420,000."
+        },
+        {
+          "id": "HO-1002/v1/DEC.limits.B",
+          "heading": "Declarations > Section I Limits",
+          "text": "Coverage B - Other Structures: $42,000."
+        },
+        {
+          "id": "HO-1002/v1/DEC.limits.C",
+          "heading": "Declarations > Section I Limits",
+          "text": "Coverage C - Personal Property: $210,000."
+        },
+        {
+          "id": "HO-1002/v1/DEC.limits.D",
+          "heading": "Declarations > Section I Limits",
+          "text": "Coverage D - Loss of Use: $84,000."
+        },
+        {
+          "id": "HO-1002/v1/DEC.limits.E",
+          "heading": "Declarations > Section II Limits",
+          "text": "Coverage E - Personal Liability: $300,000 each occurrence."
+        },
+        {
+          "id": "HO-1002/v1/DEC.limits.F",
+          "heading": "Declarations > Section II Limits",
+          "text": "Coverage F - Medical Payments to Others: $5,000 each person."
+        },
+        {
+          "id": "HO-1002/v1/DEC.deductible",
+          "heading": "Declarations > Deductible",
+          "text": "Section I deductible: $1,500 all perils, each loss."
+        },
+        {
+          "id": "HO-1002/v1/DEC.WB",
+          "heading": "Declarations > Water Backup and Sump Discharge or Overflow",
+          "text": "Water Backup limit: $10,000 each loss. Water Backup deductible: $1,000."
+        },
+        {
+          "id": "HO-1002/v1/DEC.mortgagee",
+          "heading": "Declarations > Mortgagee",
+          "text": "Mortgagee: Juniper Court Home Lending."
+        }
+      ]
+    }
+  ]
+}

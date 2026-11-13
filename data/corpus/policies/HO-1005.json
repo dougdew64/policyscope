@@ -1,0 +1,87 @@
+{
+  "policyNumber": "HO-1005",
+  "namedInsured": "Morgan Ellis",
+  "residencePremises": "66 Larkspur Way, Brookfield Park",
+  "versions": [
+    {
+      "version": 1,
+      "effective": "2025-11-01",
+      "expires": "2026-11-01",
+      "forms": [
+        "PS-OP"
+      ],
+      "endorsements": [
+        "PS-SP",
+        "PS-RC",
+        "PS-SL"
+      ],
+      "declarations": [
+        {
+          "id": "HO-1005/v1/DEC.period",
+          "heading": "Declarations > Policy Period",
+          "text": "Policy number HO-1005. Policy period: from 2025-11-01 to 2026-11-01, 12:01 a.m. standard time at the residence premises."
+        },
+        {
+          "id": "HO-1005/v1/DEC.insured",
+          "heading": "Declarations > Named Insured",
+          "text": "Named insured and mailing address: Morgan Ellis, 66 Larkspur Way, Brookfield Park."
+        },
+        {
+          "id": "HO-1005/v1/DEC.premises",
+          "heading": "Declarations > Residence Premises",
+          "text": "The residence premises is 66 Larkspur Way, Brookfield Park: a one-family dwelling of masonry construction, built 2015, served by underground water, sewer and electrical lines."
+        },
+        {
+          "id": "HO-1005/v1/DEC.forms",
+          "heading": "Declarations > Forms and Endorsements",
+          "text": "Forms and endorsements made part of this policy: PS-OP Homeowners Policy - Open Perils Form (edition 2025-01); PS-SP Scheduled Personal Property (edition 2025-01); PS-RC Personal Property Replacement Cost Loss Settlement (edition 2025-01); PS-SL Service Line Coverage (edition 2025-01)."
+        },
+        {
+          "id": "HO-1005/v1/DEC.limits.A",
+          "heading": "Declarations > Section I Limits",
+          "text": "Coverage A - Dwelling: $510,000."
+        },
+        {
+          "id": "HO-1005/v1/DEC.limits.B",
+          "heading": "Declarations > Section I Limits",
+          "text": "Coverage B - Other Structures: $51,000."
+        },
+        {
+          "id": "HO-1005/v1/DEC.limits.C",
+          "heading": "Declarations > Section I Limits",
+          "text": "Coverage C - Personal Property: $255,000."
+        },
+        {
+          "id": "HO-1005/v1/DEC.limits.D",
+          "heading": "Declarations > Section I Limits",
+          "text": "Coverage D - Loss of Use: $102,000."
+        },
+        {
+          "id": "HO-1005/v1/DEC.limits.E",
+          "heading": "Declarations > Section II Limits",
+          "text": "Coverage E - Personal Liability: $500,000 each occurrence."
+        },
+        {
+          "id": "HO-1005/v1/DEC.limits.F",
+          "heading": "Declarations > Section II Limits",
+          "text": "Coverage F - Medical Payments to Others: $5,000 each person."
+        },
+        {
+          "id": "HO-1005/v1/DEC.deductible",
+          "heading": "Declarations > Deductible",
+          "text": "Section I deductible: $2,000 all perils, each loss."
+        },
+        {
+          "id": "HO-1005/v1/DEC.SP.schedule",
+          "heading": "Declarations > Scheduled Personal Property Schedule",
+          "text": "Jewelry class: (1) platinum engagement ring with a 1.6 carat round diamond, $12,000; (2) men's stainless steel automatic wristwatch, $6,500; (3) cultured pearl necklace, 18 inches, $3,000. Total jewelry class: $21,500. Fine arts class: none scheduled."
+        },
+        {
+          "id": "HO-1005/v1/DEC.mortgagee",
+          "heading": "Declarations > Mortgagee",
+          "text": "Mortgagee: Brookfield Park Community Bank."
+        }
+      ]
+    }
+  ]
+}

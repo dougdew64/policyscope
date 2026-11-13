@@ -1,0 +1,86 @@
+{
+  "policyNumber": "HO-1006",
+  "namedInsured": "Dana Whitfield",
+  "residencePremises": "310 Quarry Street, Eastmere",
+  "versions": [
+    {
+      "version": 1,
+      "effective": "2026-03-01",
+      "expires": "2027-03-01",
+      "forms": [
+        "PS-NP"
+      ],
+      "endorsements": [
+        "PS-HB",
+        "PS-ID"
+      ],
+      "declarations": [
+        {
+          "id": "HO-1006/v1/DEC.period",
+          "heading": "Declarations > Policy Period",
+          "text": "Policy number HO-1006. Policy period: from 2026-03-01 to 2027-03-01, 12:01 a.m. standard time at the residence premises."
+        },
+        {
+          "id": "HO-1006/v1/DEC.insured",
+          "heading": "Declarations > Named Insured",
+          "text": "Named insured and mailing address: Dana Whitfield, 310 Quarry Street, Eastmere."
+        },
+        {
+          "id": "HO-1006/v1/DEC.premises",
+          "heading": "Declarations > Residence Premises",
+          "text": "The residence premises is 310 Quarry Street, Eastmere: a two-family dwelling. The named insured resides in the ground-floor unit; the upper unit is rented to a tenant. A detached garage on the premises is used as a pottery studio."
+        },
+        {
+          "id": "HO-1006/v1/DEC.forms",
+          "heading": "Declarations > Forms and Endorsements",
+          "text": "Forms and endorsements made part of this policy: PS-NP Homeowners Policy - Named Perils Form (edition 2025-01); PS-HB Home Business Coverage (edition 2025-01); PS-ID Identity Fraud Expense Coverage (edition 2025-01)."
+        },
+        {
+          "id": "HO-1006/v1/DEC.limits.A",
+          "heading": "Declarations > Section I Limits",
+          "text": "Coverage A - Dwelling: $460,000."
+        },
+        {
+          "id": "HO-1006/v1/DEC.limits.B",
+          "heading": "Declarations > Section I Limits",
+          "text": "Coverage B - Other Structures: $46,000."
+        },
+        {
+          "id": "HO-1006/v1/DEC.limits.C",
+          "heading": "Declarations > Section I Limits",
+          "text": "Coverage C - Personal Property: $160,000."
+        },
+        {
+          "id": "HO-1006/v1/DEC.limits.D",
+          "heading": "Declarations > Section I Limits",
+          "text": "Coverage D - Loss of Use: $92,000."
+        },
+        {
+          "id": "HO-1006/v1/DEC.limits.E",
+          "heading": "Declarations > Section II Limits",
+          "text": "Coverage E - Personal Liability: $300,000 each occurrence."
+        },
+        {
+          "id": "HO-1006/v1/DEC.limits.F",
+          "heading": "Declarations > Section II Limits",
+          "text": "Coverage F - Medical Payments to Others: $5,000 each person."
+        },
+        {
+          "id": "HO-1006/v1/DEC.deductible",
+          "heading": "Declarations > Deductible",
+          "text": "Section I deductible: $1,000 all perils, each loss."
+        },
+        {
+          "id": "HO-1006/v1/DEC.HB",
+          "heading": "Declarations > Home Business",
+          "text": "Home business: Whitfield Clayworks, a sole proprietorship owned by Dana Whitfield, making and selling hand-thrown pottery and holding pottery classes in the detached garage studio on the residence premises. One part-time employee. Gross annual revenue in the prior year: $48,000."
+        },
+        {
+          "id": "HO-1006/v1/DEC.mortgagee",
+          "heading": "Declarations > Mortgagee",
+          "text": "Mortgagee: Eastmere Community Credit Union."
+        }
+      ]
+    }
+  ]
+}

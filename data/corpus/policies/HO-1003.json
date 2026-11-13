@@ -1,0 +1,159 @@
+{
+  "policyNumber": "HO-1003",
+  "namedInsured": "Priya and Martin Holm",
+  "residencePremises": "9 Cedar Bluff Road, Eastmere",
+  "versions": [
+    {
+      "version": 1,
+      "effective": "2025-05-01",
+      "expires": "2026-05-01",
+      "forms": [
+        "PS-OP"
+      ],
+      "endorsements": [
+        "PS-ID"
+      ],
+      "declarations": [
+        {
+          "id": "HO-1003/v1/DEC.period",
+          "heading": "Declarations > Policy Period",
+          "text": "Policy number HO-1003. Policy period: from 2025-05-01 to 2026-05-01, 12:01 a.m. standard time at the residence premises."
+        },
+        {
+          "id": "HO-1003/v1/DEC.insured",
+          "heading": "Declarations > Named Insured",
+          "text": "Named insured and mailing address: Priya and Martin Holm, 9 Cedar Bluff Road, Eastmere."
+        },
+        {
+          "id": "HO-1003/v1/DEC.premises",
+          "heading": "Declarations > Residence Premises",
+          "text": "The residence premises is 9 Cedar Bluff Road, Eastmere: a one-family dwelling of wood frame construction, built 1978, heated by a natural gas furnace, with a detached workshop."
+        },
+        {
+          "id": "HO-1003/v1/DEC.forms",
+          "heading": "Declarations > Forms and Endorsements",
+          "text": "Forms and endorsements made part of this policy: PS-OP Homeowners Policy - Open Perils Form (edition 2025-01); PS-ID Identity Fraud Expense Coverage (edition 2025-01)."
+        },
+        {
+          "id": "HO-1003/v1/DEC.limits.A",
+          "heading": "Declarations > Section I Limits",
+          "text": "Coverage A - Dwelling: $380,000."
+        },
+        {
+          "id": "HO-1003/v1/DEC.limits.B",
+          "heading": "Declarations > Section I Limits",
+          "text": "Coverage B - Other Structures: $38,000."
+        },
+        {
+          "id": "HO-1003/v1/DEC.limits.C",
+          "heading": "Declarations > Section I Limits",
+          "text": "Coverage C - Personal Property: $190,000."
+        },
+        {
+          "id": "HO-1003/v1/DEC.limits.D",
+          "heading": "Declarations > Section I Limits",
+          "text": "Coverage D - Loss of Use: $76,000."
+        },
+        {
+          "id": "HO-1003/v1/DEC.limits.E",
+          "heading": "Declarations > Section II Limits",
+          "text": "Coverage E - Personal Liability: $300,000 each occurrence."
+        },
+        {
+          "id": "HO-1003/v1/DEC.limits.F",
+          "heading": "Declarations > Section II Limits",
+          "text": "Coverage F - Medical Payments to Others: $5,000 each person."
+        },
+        {
+          "id": "HO-1003/v1/DEC.deductible",
+          "heading": "Declarations > Deductible",
+          "text": "Section I deductible: $1,000 all perils, each loss."
+        },
+        {
+          "id": "HO-1003/v1/DEC.mortgagee",
+          "heading": "Declarations > Mortgagee",
+          "text": "Mortgagee: Eastmere Community Credit Union."
+        }
+      ]
+    },
+    {
+      "version": 2,
+      "effective": "2026-05-01",
+      "expires": "2027-05-01",
+      "forms": [
+        "PS-OP"
+      ],
+      "endorsements": [
+        "PS-ID",
+        "PS-EB"
+      ],
+      "declarations": [
+        {
+          "id": "HO-1003/v2/DEC.period",
+          "heading": "Declarations > Policy Period",
+          "text": "Policy number HO-1003. Policy period: from 2026-05-01 to 2027-05-01, 12:01 a.m. standard time at the residence premises."
+        },
+        {
+          "id": "HO-1003/v2/DEC.insured",
+          "heading": "Declarations > Named Insured",
+          "text": "Named insured and mailing address: Priya and Martin Holm, 9 Cedar Bluff Road, Eastmere."
+        },
+        {
+          "id": "HO-1003/v2/DEC.premises",
+          "heading": "Declarations > Residence Premises",
+          "text": "The residence premises is 9 Cedar Bluff Road, Eastmere: a one-family dwelling of wood frame construction, built 1978, heated by a natural gas furnace, with a detached workshop."
+        },
+        {
+          "id": "HO-1003/v2/DEC.forms",
+          "heading": "Declarations > Forms and Endorsements",
+          "text": "Forms and endorsements made part of this policy: PS-OP Homeowners Policy - Open Perils Form (edition 2025-01); PS-ID Identity Fraud Expense Coverage (edition 2025-01); PS-EB Equipment Breakdown Coverage (edition 2025-01)."
+        },
+        {
+          "id": "HO-1003/v2/DEC.limits.A",
+          "heading": "Declarations > Section I Limits",
+          "text": "Coverage A - Dwelling: $395,000."
+        },
+        {
+          "id": "HO-1003/v2/DEC.limits.B",
+          "heading": "Declarations > Section I Limits",
+          "text": "Coverage B - Other Structures: $39,500."
+        },
+        {
+          "id": "HO-1003/v2/DEC.limits.C",
+          "heading": "Declarations > Section I Limits",
+          "text": "Coverage C - Personal Property: $197,500."
+        },
+        {
+          "id": "HO-1003/v2/DEC.limits.D",
+          "heading": "Declarations > Section I Limits",
+          "text": "Coverage D - Loss of Use: $79,000."
+        },
+        {
+          "id": "HO-1003/v2/DEC.limits.E",
+          "heading": "Declarations > Section II Limits",
+          "text": "Coverage E - Personal Liability: $300,000 each occurrence."
+        },
+        {
+          "id": "HO-1003/v2/DEC.limits.F",
+          "heading": "Declarations > Section II Limits",
+          "text": "Coverage F - Medical Payments to Others: $5,000 each person."
+        },
+        {
+          "id": "HO-1003/v2/DEC.deductible",
+          "heading": "Declarations > Deductible",
+          "text": "Section I deductible: $2,500 all perils, each loss."
+        },
+        {
+          "id": "HO-1003/v2/DEC.changes",
+          "heading": "Declarations > Changes at Renewal",
+          "text": "Changes at this renewal: the Coverage A limit is increased from $380,000 to $395,000; the Section I deductible is increased from $1,000 to $2,500; Equipment Breakdown Coverage (PS-EB) is added."
+        },
+        {
+          "id": "HO-1003/v2/DEC.mortgagee",
+          "heading": "Declarations > Mortgagee",
+          "text": "Mortgagee: Eastmere Community Credit Union."
+        }
+      ]
+    }
+  ]
+}

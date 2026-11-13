@@ -1,0 +1,7 @@
+{
+  "id": "PS-OL", "kind": "ENDORSEMENT", "title": "Ordinance or Law - Increased Amount of Coverage", "edition": "2025-01",
+  "clauses": [
+    {"id": "PS-OL/1", "heading": "Ordinance or Law - Increased Amount > Coverage", "amends": ["I.ADD.11"], "text": "The limit of liability for Additional Coverage 11, Ordinance or Law, is increased from 10% to the percentage of the Coverage A limit of liability shown in the Declarations for this endorsement."},
+    {"id": "PS-OL/2", "heading": "Ordinance or Law - Increased Amount > Conditions", "text": "We will pay the increased costs only when they are actually incurred, and only when the damaged building or structure is repaired or rebuilt at the same or another premises in the same general vicinity, within two years after the date of loss unless we agree to a longer period. All other provisions of Additional Coverage 11, including its exclusion of the loss in value of a building and of the costs to test for or remove pollutants, continue to apply."}
+  ]
+}
