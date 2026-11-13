@@ -7,7 +7,7 @@ Each stage ends with a measurement on the golden set, recorded under `results/`.
 
 | Stage | Builds | Measures | Status |
 |---|---|---|---|
-| 1 | **The corpus and the golden set:** policy clauses (public sample policies if their terms allow, otherwise synthetic, modeled on the structure of real policies: declarations, coverage forms, endorsements, defined terms), with hard cases planted: an endorsement that deletes an exclusion, a defined term that decides the answer, two policy versions with different dates. Questions with their deciding clauses and answers | The yardstick for every later stage | next |
+| 1 | **The corpus and the golden set:** synthetic homeowners policies modeled on the structure of real ones (declarations, coverage forms, endorsements, defined terms), about 6 policies and 400-600 clauses, with hard cases planted: an endorsement that deletes an exclusion, a defined term that decides the answer, two policy versions with different dates. About 80 claim records, some with vague variants, each with its answer and deciding clauses ([DECISIONS.md](DECISIONS.md)) | The yardstick for every later stage | next |
 | 2 | **Embeddings and brute-force search:** a local open embedding model; cosine similarity over every chunk | Recall at 10; time per query | |
 | 3 | **HNSW from scratch**, beside Lucene's HNSW | Recall against speed as the search breadth (`ef`) varies; memory; build time | |
 | 4 | **BM25 from scratch**, beside Lucene's; reciprocal rank fusion with the embeddings; a reranker | Recall at 10 for each method alone and fused | |
