@@ -1,14 +1,10 @@
 # policyscope
 
-**Purpose:** what policyscope is, how it's built, and where everything else is.
-**Status:** reference; the front page. **Read when:** first.
-
 **Answering insurance coverage questions from policy wording, with every part of the machinery
 built, explained and measured.**
 
-> **Status:** stage 1 built (November 2026): a synthetic policy corpus and a golden set of claim
-> records, loaded and checked in Java ([docs/CORPUS.md](docs/CORPUS.md)). [docs/PLAN.md](docs/PLAN.md)
-> has the stages.
+Built in stages, each ending in a measurement; [docs/PLAN.md](docs/PLAN.md) has the stages and
+where each one stands.
 
 ## What it is
 A coverage question ("is water that backs up through a drain covered?") is answered from the

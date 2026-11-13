@@ -31,5 +31,6 @@ tests** and explains any of it on request. Every commit Claude makes carries the
   why, with the code, before what to do next.
 - **Cheap while developing:** develop and debug against the small model; use the larger model only
   for runs whose results are recorded, batched where possible. Report each stage's API cost.
-- **Every document opens with three lines:** Purpose, Status, Read when. One owner per fact.
+- **Every document opens with three lines:** Purpose, Status, Read when; except the README, the
+  public front page, which opens with what policyscope is. One owner per fact.
 - Build and test with `mvn -B verify` before every commit.
