@@ -1,0 +1,19 @@
+# Builds
+target/
+
+# Secrets: never committed
+.env
+*.key
+*.pem
+
+# Downloaded models and source documents until their terms are checked
+models/
+data/raw/
+
+# Private context for Claude sessions (linked in from a private repository)
+CLAUDE.local.md
+
+# Editors
+.idea/
+.vscode/
+*.iml
