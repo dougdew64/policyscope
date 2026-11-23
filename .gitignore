@@ -15,5 +15,7 @@ CLAUDE.local.md
 
 # Editors
 .idea/
-.vscode/
+.vscode/*
+!.vscode/launch.json
+!.vscode/tasks.json
 *.iml

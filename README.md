@@ -31,6 +31,13 @@ Every stage ends in a measurement on the golden set: recall, correctness, latenc
   Claude (Anthropic's model, through Claude Code) writes the code and the tests. Every commit Claude
   makes says so (`Co-Authored-By: Claude`).
 
+## Running it
+- `mvn -B verify` builds and runs every test, including the integrity checks on the data.
+- `CorpusTool` prints a summary of the corpus and golden set; `CorpusTool GS-024` explains one
+  claim record: the policy version in force on its date of loss, and its deciding clauses' text.
+- In VS Code (with the Java extension pack), the Run and Debug view has launch configurations for
+  both, and for debugging the tests: all of them, or one class.
+
 ## Documents
 | Document | What it holds |
 |---|---|

@@ -1,0 +1,51 @@
+{
+  // Run and Debug view (Ctrl+Shift+D): pick a configuration, press F5. Set breakpoints first.
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Corpus: summary",
+      "type": "java",
+      "request": "launch",
+      "projectName": "policyscope",
+      "mainClass": "io.github.dougdew64.policyscope.corpus.CorpusTool",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Corpus: explain a claim record",
+      "type": "java",
+      "request": "launch",
+      "projectName": "policyscope",
+      "mainClass": "io.github.dougdew64.policyscope.corpus.CorpusTool",
+      "args": ["${input:claimId}"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
+    {
+      // Starts "mvn test" with the JVM paused until this debugger attaches, so breakpoints in the
+      // tests and in the code they call are hit from the first line.
+      "name": "Tests: all (debug)",
+      "type": "java",
+      "request": "attach",
+      "hostName": "localhost",
+      "port": 5005,
+      "preLaunchTask": "mvn: test, waiting for debugger"
+    },
+    {
+      "name": "Tests: one class (debug)",
+      "type": "java",
+      "request": "attach",
+      "hostName": "localhost",
+      "port": 5005,
+      "preLaunchTask": "mvn: test one class, waiting for debugger"
+    }
+  ],
+  "inputs": [
+    {
+      "id": "claimId",
+      "type": "promptString",
+      "description": "Claim record id (GS-001 to GS-098). Press Enter for the drain-backup case.",
+      "default": "GS-024"
+    }
+  ]
+}

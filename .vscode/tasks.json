@@ -1,0 +1,53 @@
+{
+  // Terminal > Run Task. The two debug tasks are started by the "Tests: ... (debug)" launch
+  // configurations; surefire pauses the test JVM on port 5005 until the debugger attaches.
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "mvn: verify",
+      "type": "shell",
+      "command": "mvn -B verify",
+      "group": { "kind": "build", "isDefault": true },
+      "problemMatcher": []
+    },
+    {
+      "label": "mvn: test, waiting for debugger",
+      "type": "shell",
+      "command": "mvn -B -Dmaven.surefire.debug test",
+      "isBackground": true,
+      "problemMatcher": {
+        "owner": "java",
+        "pattern": { "regexp": "^\\[ERROR\\] (.*)$", "message": 1 },
+        "background": {
+          "activesBegin": true,
+          "beginsPattern": "Scanning for projects",
+          "endsPattern": "Listening for transport dt_socket at address: 5005"
+        }
+      }
+    },
+    {
+      "label": "mvn: test one class, waiting for debugger",
+      "type": "shell",
+      "command": "mvn -B -Dmaven.surefire.debug -Dtest=${input:testClass} -Dsurefire.failIfNoSpecifiedTests=false test",
+      "isBackground": true,
+      "problemMatcher": {
+        "owner": "java",
+        "pattern": { "regexp": "^\\[ERROR\\] (.*)$", "message": 1 },
+        "background": {
+          "activesBegin": true,
+          "beginsPattern": "Scanning for projects",
+          "endsPattern": "Listening for transport dt_socket at address: 5005"
+        }
+      }
+    }
+  ],
+  "inputs": [
+    {
+      "id": "testClass",
+      "type": "pickString",
+      "description": "Test class to run",
+      "options": ["CorpusTest", "GoldenSetTest", "CorpusToolTest"],
+      "default": "CorpusTest"
+    }
+  ]
+}
