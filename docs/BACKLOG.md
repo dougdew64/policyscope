@@ -23,3 +23,4 @@ An item leaves this list when the owner decides it: the decision goes to
 ## Ideas
 | Added | Idea | Why it might matter |
 |---|---|---|
+| 2026-11-23 | **A wording stress test:** generate many loss scenarios, run the coverage check on each, and report (1) answers the drafter didn't expect, *covered* or *not settled* where *not covered* was meant, and (2) the scenarios whose answer changes between two wordings: the open-perils and named-perils forms, or a form with and without an endorsement. Weighting the changed answers by how often and how large such losses are would put a rough cost on each gap | Ambiguous wording is read against the insurer, so a gap is exposure that the premium never priced; checking wordings against scenarios is done by people today, slowly and not exhaustively. It reuses the coverage check from stage 5 and the golden set's form of record |
