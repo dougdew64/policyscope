@@ -45,6 +45,7 @@ Every stage ends in a measurement on the golden set: recall, correctness, latenc
 | [docs/CLAIMS.md](docs/CLAIMS.md) | How a claim is processed, and the step policyscope builds |
 | [docs/PLAN.md](docs/PLAN.md) | The stages, and what each one measures |
 | [docs/DECISIONS.md](docs/DECISIONS.md) | The decisions, newest first |
+| [docs/BACKLOG.md](docs/BACKLOG.md) | Ideas and open questions not yet decided |
 | [CLAUDE.md](CLAUDE.md) | How Claude works in this repository |
 
 ## License
